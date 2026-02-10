@@ -1,0 +1,6 @@
+@back_softek_HostAddress = http://localhost:5196
+
+GET {{back_softek_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
