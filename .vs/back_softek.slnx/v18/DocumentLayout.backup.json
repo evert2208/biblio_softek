@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|c:\\users\\evert h\\source\\repos\\back_softek\\back_softek\\domain\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|solutionrelative:back_softek\\domain\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB6E2C2E-7696-07E1-4FBF-9B38FF477BD9}|back_softek\\back_softek.csproj|c:\\users\\evert h\\source\\repos\\back_softek\\back_softek\\domain\\irepository\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6E2C2E-7696-07E1-4FBF-9B38FF477BD9}|back_softek\\back_softek.csproj|solutionrelative:back_softek\\domain\\irepository\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|c:\\users\\evert h\\source\\repos\\back_softek\\back_softek\\domain\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|solutionrelative:back_softek\\domain\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|c:\\users\\evert h\\source\\repos\\back_softek\\back_softek\\domain\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E0D5F85-8500-4818-B618-6714937812A8}|back_softek\\back_softek.csproj|solutionrelative:back_softek\\domain\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB6E2C2E-7696-07E1-4FBF-9B38FF477BD9}|back_softek\\back_softek.csproj|c:\\users\\evert h\\source\\repos\\back_softek\\back_softek\\application\\iservices\\ilibroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6E2C2E-7696-07E1-4FBF-9B38FF477BD9}|back_softek\\back_softek.csproj|solutionrelative:back_softek\\application\\iservices\\ilibroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Context\\DbContext.cs",
-              "RelativeDocumentMoniker": "back_softek\\Domain\\Context\\DbContext.cs",
-              "ToolTip": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Context\\DbContext.cs",
-              "RelativeToolTip": "back_softek\\Domain\\Context\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "IAutorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\IRepository\\IAutorRepository.cs",
+              "RelativeDocumentMoniker": "back_softek\\Domain\\IRepository\\IAutorRepository.cs",
+              "ToolTip": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\IRepository\\IAutorRepository.cs",
+              "RelativeToolTip": "back_softek\\Domain\\IRepository\\IAutorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:43:15.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Autor.cs",
-              "DocumentMoniker": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Entities\\Autor.cs",
-              "RelativeDocumentMoniker": "back_softek\\Domain\\Entities\\Autor.cs",
-              "ToolTip": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Entities\\Autor.cs",
-              "RelativeToolTip": "back_softek\\Domain\\Entities\\Autor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:26:31.642Z",
+              "WhenOpened": "2026-02-11T21:24:45.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Entities\\Libro.cs",
-              "RelativeDocumentMoniker": "back_softek\\Domain\\Entities\\Libro.cs",
-              "ToolTip": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Domain\\Entities\\Libro.cs",
-              "RelativeToolTip": "back_softek\\Domain\\Entities\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Title": "ILibroService.cs",
+              "DocumentMoniker": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Application\\IServices\\ILibroService.cs",
+              "RelativeDocumentMoniker": "back_softek\\Application\\IServices\\ILibroService.cs",
+              "ToolTip": "C:\\Users\\EVERT H\\source\\repos\\back_softek\\back_softek\\Application\\IServices\\ILibroService.cs",
+              "RelativeToolTip": "back_softek\\Application\\IServices\\ILibroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:31:01.161Z",
+              "WhenOpened": "2026-02-11T21:24:36.05Z",
               "EditorCaption": ""
             }
           ]

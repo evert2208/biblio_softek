@@ -1,7 +1,7 @@
 ﻿using back_softek.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace back_softek.Domain.Context
+namespace back_softek.Infrastructure.Context
 {
     public class AppDbContext : DbContext
     {
@@ -33,7 +33,7 @@ namespace back_softek.Domain.Context
                     
                 entity.HasOne(e => e.autor)
                     .WithMany(u => u.Libros)
-                    .HasForeignKey(e => e.id)
+                    .HasForeignKey(e => e.autorId)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasIndex(e => new { e.id });

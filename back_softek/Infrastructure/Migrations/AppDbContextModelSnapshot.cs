@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using back_softek.Domain.Context;
+using back_softek.Infrastructure.Context;
 
 #nullable disable
 
@@ -59,7 +59,10 @@ namespace back_softek.Migrations
             modelBuilder.Entity("back_softek.Domain.Entities.Libro", b =>
                 {
                     b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<int>("autorId")
                         .HasColumnType("int");
@@ -82,6 +85,8 @@ namespace back_softek.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("autorId");
+
                     b.HasIndex("id");
 
                     b.ToTable("Libro");
@@ -91,7 +96,7 @@ namespace back_softek.Migrations
                 {
                     b.HasOne("back_softek.Domain.Entities.Autor", "autor")
                         .WithMany("Libros")
-                        .HasForeignKey("id")
+                        .HasForeignKey("autorId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 

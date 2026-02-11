@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("back_softek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb2a73462458676ab59ba17de75af0b407904a9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("back_softek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("back_softek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

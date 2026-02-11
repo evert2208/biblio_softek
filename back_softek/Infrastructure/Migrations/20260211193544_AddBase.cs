@@ -31,7 +31,8 @@ namespace back_softek.Migrations
                 name: "Libro",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     titulo = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     año = table.Column<int>(type: "int", nullable: false),
                     genero = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
@@ -42,8 +43,8 @@ namespace back_softek.Migrations
                 {
                     table.PrimaryKey("PK_Libro", x => x.id);
                     table.ForeignKey(
-                        name: "FK_Libro_Autor_id",
-                        column: x => x.id,
+                        name: "FK_Libro_Autor_autorId",
+                        column: x => x.autorId,
                         principalTable: "Autor",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
@@ -54,6 +55,11 @@ namespace back_softek.Migrations
                 table: "Autor",
                 column: "correo",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Libro_autorId",
+                table: "Libro",
+                column: "autorId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Libro_id",
