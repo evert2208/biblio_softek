@@ -16,7 +16,7 @@ Se utilizo el maximo permitido de 2 quemada en el Api para realizar pruebas de l
 
 ### Para Clonar repositorio
 ```bash
-git clone https://github.com/tu-repositorio.git
+git clone https://github.com/evert2208/biblio_softek.git
 ```
 
 Evert Heredia Santander - 2026
